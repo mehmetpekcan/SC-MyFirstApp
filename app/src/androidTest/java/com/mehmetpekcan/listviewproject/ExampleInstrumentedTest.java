@@ -1,4 +1,4 @@
-package com.example.myfirstapp;
+package com.mehmetpekcan.listviewproject;
 
 import android.content.Context;
 
@@ -17,10 +17,10 @@ import static org.junit.Assert.*;
  */
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
-    @Test
-    public void useAppContext() {
-        // Context of the app under test.
-        Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.myfirstapp", appContext.getPackageName());
-    }
+  @Test
+  public void useAppContext() {
+    // Context of the app under test.
+    Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
+    assertEquals("com.mehmetpekcan.listviewproject", appContext.getPackageName());
+  }
 }
