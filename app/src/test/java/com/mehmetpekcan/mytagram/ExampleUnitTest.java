@@ -1,4 +1,4 @@
-package com.mehmetpekcan.listviewproject;
+package com.mehmetpekcan.mytagram;
 
 import org.junit.Test;
 

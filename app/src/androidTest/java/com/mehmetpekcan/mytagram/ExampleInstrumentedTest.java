@@ -1,4 +1,4 @@
-package com.mehmetpekcan.listviewproject;
+package com.mehmetpekcan.mytagram;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
   public void useAppContext() {
     // Context of the app under test.
     Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-    assertEquals("com.mehmetpekcan.listviewproject", appContext.getPackageName());
+    assertEquals("com.mehmetpekcan.mytagram", appContext.getPackageName());
   }
 }
