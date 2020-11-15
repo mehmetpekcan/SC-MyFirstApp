@@ -1,4 +1,4 @@
-package com.mehmetpekcan.mybrowser;
+package com.mehmetpekcan.tictactoe;
 
 import org.junit.Test;
 
