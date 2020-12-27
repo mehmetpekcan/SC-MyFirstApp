@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "876520480259",
+    "project_id": "my-notes-ceng",
+    "storage_bucket": "my-notes-ceng.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876520480259:android:1c7fe8baf4b802e9797836",
+        "android_client_info": {
+          "package_name": "com.mehmetpekcan.mynotesfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876520480259-h407i0nnd8akbldd7o1sn4d5tlsm71th.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOovVQHSrk87MSWCk-XeLmn3bk3GYI_mE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876520480259-h407i0nnd8akbldd7o1sn4d5tlsm71th.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

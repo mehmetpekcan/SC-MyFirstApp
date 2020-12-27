@@ -1,92 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/board"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-  <TableRow
-      android:id="@+id/row1"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:layout_weight="1">
+  <FrameLayout
+      android:id="@+id/container"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent">
+  </FrameLayout>
 
-    <Button
-        android:id="@+id/cell01"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:textSize="60sp" />
-
-    <Button
-        android:id="@+id/cell02"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:textSize="60sp" />
-
-    <Button
-        android:id="@+id/cell03"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:textSize="60sp" />
-  </TableRow>
-
-  <TableRow
-      android:id="@+id/row2"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:layout_weight="1">
-
-    <Button
-        android:id="@+id/cell11"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:textSize="60sp" />
-
-    <Button
-        android:id="@+id/cell12"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:textSize="60sp" />
-
-    <Button
-        android:id="@+id/cell13"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:textSize="60sp" />
-  </TableRow>
-
-  <TableRow
-      android:id="@+id/row3"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:layout_weight="1">
-
-    <Button
-        android:id="@+id/cell21"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:textSize="60sp" />
-
-    <Button
-        android:id="@+id/cell22"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:textSize="60sp" />
-
-    <Button
-        android:id="@+id/cell23"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:textSize="60sp" />
-  </TableRow>
-</TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
